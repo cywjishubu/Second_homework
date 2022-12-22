@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>石制机车库</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-image: url(八六一.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 50% 110%;
+            background-position: 50%;
+
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .top1 {
+            float: left;
+            width: 10%;
+            height: 60px;
+        }
+
+        .top1 ul li {
+            float: left;
+        }
+
+        .top1 a {
+            margin-left: 30px;
+            font-size: 20px;
+            text-decoration: none;
+            color: violet;
+        }
+
+        .top1 a:hover {
+            color: violet;
+            font-size: 22px;
+        }
+
+        .logo {
+            float: left;
+            width: 20%;
+            margin-left: 50px;
+        }
+
+        .top2 {
+            width: 60%;
+            float: right;
+        }
+
+        .top2 ul li {
+            float: right;
+            margin-right: 50px;
+        }
+
+        .top2 ul li a {
+            font-size: 20px;
+            text-decoration: none;
+            font-style: italic;
+            color: grey;
+        }
+
+        .top2 ul li a:hover {
+            color: violet;
+            font-size: 30px;
+        }
+
+        #top {
+            height: 100px;
+            position: relative;
+        }
+
+        #main {
+            height: 600px;
+            margin: 0 auto;
+            position: relative;
+            border-radius: 1em;
+            font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+        }
+
+        #left {
+            width: 70%;
+            height: 100%;
+            float: left;
+        }
+
+
+        .comment {
+            margin-top: 4%;
+            margin-left: 14%;
+            padding: 2%;
+            width: 70%;
+            background-color: rgba(240, 248, 255, 0.4);
+            border: 1px dashed;
+            border-radius: 1em;
+            position: relative;
+        }
+
+        .comment:hover {
+            background-color: rgba(187, 187, 187, 0.607);
+        }
+
+        .comment:hover img {
+            border-radius: 1em;
+        }
+
+        .comment img {
+            position: absolute;
+            top: -1%;
+            left: -10%;
+            border-radius: 2em;
+            border: 2px solid #888;
+        }
+
+        .comment p {
+            text-indent: 2em;
+            margin-top: 0.4%;
+        }
+
+        .comment .name {
+            color: black;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .comment .name:hover {
+            text-decoration: underline;
+        }
+
+        .comment span {
+            position: absolute;
+            top: 10%;
+            right: 4%;
+            font-size: 0.9em;
+            font-weight: none;
+            color: #444
+        }
+
+        .comment .good {
+            color: crimson;
+            text-decoration: none;
+            position: absolute;
+            bottom: 4%;
+            right: 8%;
+        }
+
+        #right {
+            width: 30%;
+            height: 100%;
+            float: right;
+            border-radius: 1em;
+            position: relative;
+        }
+
+        .rtop p {
+            text-align: center;
+        }
+
+        .rtop a {
+            text-decoration: none;
+            color: rgb(128, 128, 128);
+        }
+
+        .rmiddle div {
+            color: violet;
+            float: left;
+            margin-left: 60px;
+        }
+
+        .rmiddle div a {
+            text-decoration: none;
+        }
+
+        .rmiddle div a:hover {
+            font-size: 20px;
+        }
+
+        .rmiddle p {
+            clear: both;
+        }
+
+        .rfoot {
+            position: absolute;
+            left: 50px;
+            top: 100px;
+        }
+
+        .btn {
+            position: absolute;
+            top: -1px;
+            left: -14px;
+            border: 2px solid #ccc;
+            height: 16px;
+            line-height: 16px;
+            cursor: pointer;
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 10%;
+            width: 90%;
+            height: 100px;
+        }
+
+        #id {
+            position: absolute;
+            left: -10px;
+            top: -2px;
+        }
+
+        textarea {
+            width: 80%;
+            height: 40px;
+            outline: none;
+            resize: none;
+            border: 1 violet dashed;
+        }
+
+        button {
+            position: absolute;
+            right: 10%;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div id="top">
+        <div class="top1">
+            <ul>
+                <li><a href="https://baike.baidu.com/item/%E5%85%AB%E5%85%AD/640884" target="_blank">ハチロク</a></li>
+            </ul>
+        </div>
+        <div class="logo">
+            <img src="logo.png" alt="logo" title="logo">
+        </div>
+        <div class="top2">
+            <ul>
+                <li><a href="https://baike.baidu.com/item/%E5%8F%B3%E7%94%B0%E4%B8%80%E9%85%BF%E9%85%92%E5%8E%82/23415779?fromModule=lemma_inlink"
+                        target="_blank">右田一酿酒厂</a></li>
+                <li><a href="https://baike.baidu.com/item/%E7%99%BB%E5%90%95%E6%B5%81%E6%B5%B4%E5%9C%BA/23415784?fromModule=lemma_inlink"
+                        target="_blank">登吕流浴场</a></li>
+                <li><a href="https://baike.baidu.com/item/%E8%B5%A4%E4%BA%95%E9%98%BF%E8%8B%8F%E7%A5%9E%E7%A4%BE/23415788?fromModule=lemma_inlink"
+                        target="_blank">赤井阿苏神社</a></li>
+                <li><a href="https://baike.baidu.com/item/%E6%9C%AF%E4%BB%99%E7%85%A4%E7%9F%BF%E5%BA%9F%E8%BD%A6%E7%AB%99/23415787?fromModule=lemma_inlink"
+                        target="_blank">术仙煤矿废车站</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="main">
+        <div id="left">
+
+            <div class='comment'>
+                <img src='八六.png' alt='八六' />
+                <a class="name" href="https://baike.baidu.com/item/%E5%85%AB%E5%85%AD/640884?fromModule=lemma_inlink"
+                    target="_blank">八六</a>
+                <p>即将到站了，双铁少爷</p>
+                <span>2022/12/21</span>
+                <a class='good' href="https://baike.baidu.com/item/%E7%88%B1%E4%B8%8A%E7%81%AB%E8%BD%A6/22553731#1_4"
+                    target="_blank">赞</a>
+            </div>
+
+            <div class='comment'>
+                <img src='波莱特.png' alt='雏衣波莱特' />
+                <a class="name"
+                    href="https://baike.baidu.com/item/%E9%9B%8F%E8%A1%A3%E6%B3%A2%E8%8E%B1%E7%89%B9/23414491?fromModule=lemma_inlink"
+                    target="_blank">波莱特</a>
+                <p>双铁君，终于要到了呢
+                </p>
+                <span>2022/12/21</span>
+                <a class='good' href="https://baike.baidu.com/item/%E7%88%B1%E4%B8%8A%E7%81%AB%E8%BD%A6/22553731#1_4"
+                    target="_blank">赞</a>
+            </div>
+
+
+        </div>
+        <div id="right">
+            <div class="rtop">
+                <p><a href="#">谁看过我</a></p>
+            </div>
+            <div class="rmiddle">
+                <div><a href="https://baike.baidu.com/item/%E7%8E%B2%E5%A5%88/23414612?fromModule=lemma_inlink"
+                        target="_blank">铃奈</a></div>
+                <div><a href="https://baike.baidu.com/item/%E6%97%A9%E6%BF%91%E6%B7%B1%E7%BE%8E/23414499?fromModule=lemma_inlink"
+                        target="_blank">深美</a></div>
+                <div><a href="https://baike.baidu.com/item/%E5%8F%B3%E7%94%B0%E7%9C%9F%E9%97%87/23414494?fromModule=lemma_inlink"
+                        target="_blank">真闇姐</a></div>
+                <p>&nbsp;</p>
+                <div><a href="https://baike.baidu.com/item/%E8%93%91%E7%AC%A0%E5%87%AA/23414498?fromModule=lemma_inlink"
+                        target="_blank">凪</a></div>
+                <div><a href="https://baike.baidu.com/item/%E5%8F%B3%E7%94%B0%E6%97%A5%E6%97%A5%E5%A7%AC/23414486?fromModule=lemma_inlink"
+                        target="_blank">日日姬</a></div>
+
+                <div><a href="https://baike.baidu.com/item/%E5%AE%9D%E7%94%9F%E7%A8%80%E5%92%B2/23414496?fromModule=lemma_inlink"
+                        target="_blank">稀咲</a></div>
+            </div>
+            <div class="rfoot">
+                <i class="btn">x</i>
+                <img src="20221222173250.png" alt="二维码" id="qr">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class='comment'>
+            <img src="铁子.png" alt="头像" id="head">
+            <a class="name"
+                href="https://baike.baidu.com/item/%E5%8F%B3%E7%94%B0%E5%8F%8C%E9%93%81/23414489?fromModule=lemma_inlink"
+                target="_blank">我</a>
+            <p><textarea name="say" id="say"></textarea></p>
+            <span class="clock"></span>
+            <button class="an">发布</button>
+            <script>
+                var clock = document.querySelector('.clock');
+                var time = new Date();
+                var timey = time.getFullYear();
+                var timem = time.getMonth() + 1;
+                var timeM = time.getDate();
+                var TIME = timey + '/' + timem + '/' + timeM;
+                clock.innerHTML = TIME;
+            </script>
+        </div>
+    </div>
+    <script>
+        var btn = document.querySelector('.btn')
+        var qr = document.querySelector('#qr')
+        btn.onclick = function () {
+            qr.style.display = 'none';
+            btn.style.display = 'none';
+        }
+    </script>
+    <script>
+        var an = document.querySelector('.an');
+        var text = document.querySelector('textarea');
+        var main = document.querySelector('#left')
+        an.onclick = function () {
+            if (text.value == '') {
+                alert('您没有输入内容');
+                return false;
+            }
+            else {
+                var commentnew = document.createElement('div');
+                commentnew.setAttribute('class', 'comment');
+                main.appendChild(commentnew);
+                var img = document.createElement('img');
+                img.setAttribute('src', '铁子.png');
+                img.setAttribute('alt', '我');
+                commentnew.appendChild(img);
+                var a1 = document.createElement('a');
+                a1.setAttribute('class', 'name');
+                a1.setAttribute('href', 'https://baike.baidu.com/item/%E5%8F%B3%E7%94%B0%E5%8F%8C%E9%93%81/23414489?fromModule=lemma_inlink');
+                a1.setAttribute('target', '_blank');
+                a1.innerHTML = '我';
+                commentnew.appendChild(a1);
+                var say = document.querySelector('#say');
+                var p1 = document.createElement('p');
+                p1.innerHTML = say.value;
+                commentnew.appendChild(p1);
+                var span = document.querySelector('.clock')
+                var span1 = document.createElement('span');
+                span1.innerHTML = TIME;
+                commentnew.appendChild(span1);
+                var a2 = document.createElement('a');
+                a2.setAttribute('class', 'good');
+                a2.setAttribute('href', 'https://baike.baidu.com/item/%E7%88%B1%E4%B8%8A%E7%81%AB%E8%BD%A6/22553731#1_4');
+                a2.setAttribute('target', '_blank');
+                a2.innerHTML = '赞';
+                commentnew.appendChild(a2);
+                text.value = '';
+            }
+
+        }</script>
+
+</body>
+
+</html>
